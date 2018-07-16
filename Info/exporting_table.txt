@@ -1,0 +1,15 @@
+How can you export a data table from mySQL workbench?
+
+1. right click (if you are dominant hand is right) on the data table you would like to export.
+2. choose 'Table Data Export Wizard'.
+3. next, than write some .csv location to keep to data contents.
+4. next,next,next,finish!
+5. open some excel/csv software.
+6. open some empty new sheet.
+7. choose 'Data' from the upper bar.
+8. than choose 'From Text/Csv' from the upper bar.
+9. navigate to the file from step (3).
+10. than pick 'File Source'-> 'None'.
+11. load,save the file as and completely finish!
+
+Thanks:)

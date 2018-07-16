@@ -1,0 +1,92 @@
+html,body{margin:0;border:0;padding:0; width: 100%; height: 100%;}
+body{
+	display: table;
+	font-size: 100%;
+}
+#main{
+	display: table-row;
+	height: 100%;
+	width: 100%;
+}
+#main-center-cell{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background-color:lightgray;
+}
+#login-cont{
+	display: inline-block;
+	position: relative;
+	top: -1em;
+	border: 1px solid #500;
+	padding: 2em 3em;
+	background: #fff7cc;
+}
+#login-cont .pw-title{
+	padding: 0.6em 0 1.8em;
+	font-size: 1.4em;
+}
+#login-cont .pw-input-cont{
+	position: relative;
+	width: 100%;
+}
+.table{display: table;}
+.table-row{display: table-row;}
+.table-cell{display: table-cell;}
+
+.pw-textarea-cont{
+	width: 100%;
+	padding: 0.8em;
+	border: 1px solid #7779;
+	border-radius: 0.3em;
+	background: #fff;
+}
+.pw-send-cont{
+	padding-top: 1.6em;
+}
+#login-cont .pw-input-cont input#pw-textarea{
+	position: relative;
+	display: block;
+	border: 0;
+	padding: 0;
+	width: 100%;
+	background: #f9f9f9;
+	font-size: 1.6em;
+}
+#pw-textarea::-webkit-input-placeholder{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#pw-textarea:-ms-input-placeholder{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#pw-textarea::placeholder{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#login-cont .pw-input-cont input#pw-send{
+	background: #aea;
+	border: 1px solid #393;
+	border-radius: 0.3em;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-size: 1.2em;
+	padding: 0.6em;
+	position: relative;
+	transition: all 0.15s ease 0s;
+}
+#login-cont .pw-input-cont input#pw-send:hover{
+	background: #bfb;
+	border-color: #993;
+}

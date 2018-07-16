@@ -1,0 +1,182 @@
+table{
+	border-collapse: collapse;  /* do not see really a table */
+}
+td.position{
+	text-align:left;
+}
+td.style{
+	border: solid black 1.5px;
+}
+div.transfer_place{
+	text-align:right;
+	margin-top: 0.2em;
+	margin-left:1.5em;
+	margin-right:1.5em;
+	margin-bottom: 0.2em;
+}
+label.style{
+	width:15em;
+	height:1.5em;
+	color:black;
+	font-size:1.3em;
+}
+h1.h1_style{
+	text-align:center;
+}
+h2.h1_style{
+	text-align:center;
+}
+h4.h4_style{
+	text-align:center;
+}
+.pad_edit{
+	padding-right: 2em;
+}
+#myBar{
+    opacity: 0.5;
+    width: 100%;
+    height: 2em;
+    background-color: #2DB632;/*#4CAF50;*/
+}
+#inp_to_out
+{
+	font-size: 1em;
+	padding: 0.2em;
+	/* width:7em; */
+	border-radius: 0.3em;/* 0.625em; */
+	border:2px solid #bbb;
+	/* background-color: #f3f3f3; */
+	background-color: #f3f3a0;/*rgb(144,238,144);*//*#2DB633;*//*#f69c9c;*//*#f3f3d0;*/
+	color:black;
+	opacity: 1;
+	transition: all 100ms;
+}
+#inp_to_out:hover
+{
+	border: 2px solid #bbb;
+	/* background-color: #fff; */
+	background-color: #f3f3a0;
+	opacity: 1;
+	cursor: pointer;
+}
+#inp_to_out:focus
+{
+	opacity: 1;
+	/* background-color: #fff; */
+	background-color: #f3f380;
+	color:black;
+	border: 2px solid #bbb;
+	box-shadow: 0 0 1px 1px #ddd;
+	outline: 0;
+	cursor: text;
+}
+#inp_to_out:active
+{
+	outline: 0;
+}
+#inp_to_out::-webkit-input-placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_out:-ms-input-placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_out::placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_out:focus::-webkit-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_out:focus:-ms-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_out:focus::placeholder
+{
+	color: transparent;
+}
+#inp_to_out:empty::before{
+}
+#inp_to_edit
+{
+	font-size: 1em;
+	padding: 0.2em;
+	/* width:7em; */
+	border-radius: 0.3em;/* 0.625em; */
+	border: 1.5px solid #bbb;
+	/* background-color: #f3f3f3; */
+	background-color: #f3f3d0;
+	color:black;
+	opacity: 0;
+	transition: all 100ms;
+}
+#inp_to_edit:hover
+{
+	border: 1.5px solid #bbb;
+	/* background-color: #fff; */
+	background-color: #f3f3a0;
+	opacity: 0;
+	cursor: pointer;
+}
+#inp_to_edit:focus
+{
+	opacity: 0;
+	/* background-color: #fff; */
+	background-color: #f3f380;
+	color:black;
+	border: 1.5px solid #bbb;
+	box-shadow: 0 0 1px 1px #ddd;
+	outline: 0;
+	cursor: text;
+}
+#inp_to_edit:active
+{
+	outline: 0;
+}
+#inp_to_edit::-webkit-input-placeholder
+{
+	color: #3a3;
+	opacity: 0;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit:-ms-input-placeholder
+{
+	color: #3a3;
+	opacity: 0;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit::placeholder
+{
+	color: #3a3;
+	opacity: 0;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit:focus::-webkit-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:focus:-ms-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:focus::placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:empty::before{
+}

@@ -1,0 +1,230 @@
+table{
+	border-collapse: collapse;  /* do not see really a table */
+}
+td.position{
+	text-align:left;
+}
+td.style{
+	border: solid black 1.5px;
+}
+label.style{
+	width:15em;
+	height:1.5em;
+	color:black;
+	font-size:1.3em;
+}
+h1.h1_style{
+	text-align:center;
+}
+h2.h2_style{
+	text-align:center;
+}
+h3.h3_style{
+	text-align:center;
+}
+h4.h4_style{
+	text-align:center;
+}
+.pad_edit{
+	padding-right: 2em;
+}
+#new{
+	cursor:pointer;
+}
+#new:focus{
+	cursor:default;
+}
+#exist{
+	cursor:pointer;
+}
+#exist:focus{
+	cursor:default;
+}
+#rem{
+	cursor:pointer;
+}
+#rem:focus{
+	cursor:default;
+}
+#reset{
+	cursor:pointer;
+}
+#reset:focus{
+	cursor:default;
+}
+#clear{
+	cursor:pointer;
+}
+#clear:focus{
+	cursor:default;
+}
+#inp_continue
+{
+	font-size: 1.2em;
+	padding: 0.2em; /* 0.6em; */
+	width:13em;
+	border-radius: 0.3em;/*0.625em;*/
+	border: 1px solid #bbb;
+	background-color: #f3f3f3;
+	opacity: 1;
+	cursor:pointer;
+	transition: all 100ms;
+}
+#inp_continue:hover
+{
+	border: 1px solid #bbb;
+	background-color: #fff;
+	opacity: 1;
+	cursor: pointer;
+}
+#inp_continue:focus
+{
+	opacity: 1;
+	background-color: #ffffe5;/*#fff;*/
+	border: 1px solid #bbb;
+	box-shadow: 0 0 3px 3px #ddd;
+	outline: 0;
+	cursor: text;
+}
+#inp_continue:active
+{
+	outline: 0;
+}
+#inp_continue::-webkit-input-placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp_continue:-ms-input-placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp_continue::placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp_continue:focus::-webkit-input-placeholder
+{
+	color: transparent;
+}
+#inp_continue:focus:-ms-input-placeholder
+{
+	color: transparent;
+}
+#inp_continue:focus::placeholder
+{
+	color: transparent;
+}
+#inp_continue:empty::before{
+}
+#inp
+{
+	font-size: 1.2em;
+	padding: 0.2em; /* 0.6em; */
+	width:13em;
+	border-radius: 0.3em;/*0.625em;*/
+	border: 1px solid #bbb;
+	background-color: #f3f3f3;
+	opacity: 1;
+	transition: all 100ms;
+}
+#inp:hover
+{
+	border: 1px solid #bbb;
+	background-color: #fff;
+	opacity: 1;
+	cursor: pointer;
+}
+#inp:focus
+{
+	opacity: 1;
+	background-color: #ffffe5;/*#fff;*/
+	border: 1px solid #bbb;
+	box-shadow: 0 0 3px 3px #ddd;
+	outline: 0;
+	cursor: text;
+}
+#inp:active
+{
+	outline: 0;
+}
+#inp::-webkit-input-placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp:-ms-input-placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp::placeholder
+{
+	color: #00004c;
+	opacity: 0.2;
+	font-size: 1em;
+	/*font-style: italic;*/
+	font-family: "Arial Black", Gadget, sans-serif
+}
+#inp:focus::-webkit-input-placeholder
+{
+	color: transparent;
+}
+#inp:focus:-ms-input-placeholder
+{
+	color: transparent;
+}
+#inp:focus::placeholder
+{
+	color: transparent;
+}
+#inp:empty::before{
+}
+#dis
+{
+	width:10em;
+	height:2em;
+	background-color:#f3f3f3;
+	color:black;
+	font-size:1.1em;
+	border:0.093em solid gray;
+	border-radius: 0.5em;
+	opacity:1;
+}
+#dis:active
+{
+	outline:0;
+}
+#dis:hover
+{
+	border: 1px solid #bbb;
+	background-color: #fff;
+	opacity: 1;
+	cursor: pointer;
+}
+#dis:focus
+{
+	opacity: 1;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 2px 2px #ddd;
+	outline: 0;
+	cursor: pointer;
+}

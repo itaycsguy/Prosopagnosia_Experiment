@@ -1,0 +1,100 @@
+div.transfer_place{
+	text-align:right;
+	margin-top: 0.2em;
+	margin-left:1.5em;
+	margin-right:1.5em;
+	margin-bottom: 0.2em;
+}
+#myBar2{
+    opacity: 0.5;
+    width: 77.7%;
+    height: 2em;
+    background-color: #2DB632;/*#4CAF50;*/
+}
+#myBar{
+    opacity: 0.5;
+    width: 78%;
+    height: 2em;
+    background-color: #2DB632;/*#4CAF50;*/
+}
+#make_bold{
+	font-size:1.2em;
+}
+#countdown{
+	cursor: default;
+	font-size: 3em;
+	font-style: arial,serif;
+	background-color: white;
+	border: 0.05em solid #bbb;
+}
+#inp_to_edit
+{
+	font-size: 1em;
+	padding: 0.2em;
+	/* width:7em; */
+	border-radius: 0.3em;/* 0.625em; */
+	border: 1.5px solid #bbb;
+	/* background-color: #f3f3f3; */
+	background-color: #f3f3d0;
+	color:black;
+	opacity: 1;
+	transition: all 100ms;
+}
+#inp_to_edit:hover
+{
+	border: 1.5px solid #bbb;
+	/* background-color: #fff; */
+	background-color: #f3f3a0;
+	opacity: 1;
+	cursor: pointer;
+}
+#inp_to_edit:focus
+{
+	opacity: 1;
+	/* background-color: #fff; */
+	background-color: #f3f380;
+	color:black;
+	border: 1.5px solid #bbb;
+	box-shadow: 0 0 1px 1px #ddd;
+	outline: 0;
+	cursor: text;
+}
+#inp_to_edit:active
+{
+	outline: 0;
+}
+#inp_to_edit::-webkit-input-placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit:-ms-input-placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit::placeholder
+{
+	color: #3a3;
+	opacity: 0.5;
+	font-size: 0.6em;
+	font-style: italic;
+}
+#inp_to_edit:focus::-webkit-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:focus:-ms-input-placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:focus::placeholder
+{
+	color: transparent;
+}
+#inp_to_edit:empty::before{
+}
