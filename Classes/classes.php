@@ -43,7 +43,7 @@ class DBi{
 			return $this->sql_link;
 		}
 		else{
-			$this->sql_link = new mysqli('127.0.0.1','u382083003_recog','Sdydyt77','u382083003_recog');
+			$this->sql_link = new mysqli('127.0.0.1','your-db-domain-name','your-db-password','your-db-domain-name');
 			if(!$this->sql_link || $this->sql_link->connect_errno != 0)
 			{
 				unset($this->$sql_link);
